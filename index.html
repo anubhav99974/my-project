@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MomoCraft - Wholesale Frozen Momos | Delhi NCR B2B Supplier</title>
+<meta name="description" content="MomoCraft supplies premium frozen momos in bulk to restaurants, cloud kitchens and caterers across Delhi NCR. Starts from 1 kg. Cold-chain delivery."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet"/>
+
+<style>
+:root{--cream:#F7F2EA;--off-white:#FDFAF5;--ink:#1A1410;--ink-soft:#38302A;--ink-muted:#7A6A5E;--gold:#C2841A;--gold-lt:#DFA94E;--gold-pale:#F4E5C4;--gold-deep:#A36A10;--rust:#9B3620;--green:#2A6E2A;--grey-bg:#F3F4F6;--border:rgba(26,20,16,.09);--border-g:rgba(194,132,26,.28);--sh-xs:0 1px 6px rgba(26,20,16,.05);--sh-sm:0 2px 16px rgba(26,20,16,.07);--sh-md:0 8px 40px rgba(26,20,16,.11);--sh-lg:0 28px 80px rgba(26,20,16,.15);--r-xs:4px;--r-sm:8px;--r-md:14px;--r-lg:22px;--ff-d:'Cormorant Garamond',Georgia,serif;--ff-b:'DM Sans',sans-serif;--ease:cubic-bezier(.4,0,.2,1);--t:.25s;--nav-h:90px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--ff-b);background:var(--off-white);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+button{cursor:pointer;font-family:inherit;border:none;background:none}
+input,select,textarea{font-family:inherit}
+.delivery-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(194,132,26,.12);border:1.5px solid rgba(194,132,26,.35);color:var(--gold);font-size:.88rem;font-weight:600;padding:7px 16px;border-radius:999px;margin-bottom:18px}
+</style>
+
+<style>
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(253,250,245,.96);backdrop-filter:blur(20px);transition:box-shadow var(--t) var(--ease)}
+.nav.sc{box-shadow:var(--sh-sm)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 4%;height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;gap:12px}
+.nav-logo{display:flex;align-items:center;gap:10px;cursor:pointer;transition:opacity var(--t);flex-shrink:0;font-family:var(--ff-d);font-size:1.4rem;font-weight:700;color:var(--ink)}
+.nav-logo span{color:var(--gold)}
+.nav-logo:hover{opacity:.8}
+.nav-links{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.nav-links a{font-size:.73rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);padding:6px 10px;border-radius:var(--r-sm);position:relative;transition:color var(--t),background var(--t);cursor:pointer;white-space:nowrap}
+.nav-links a:hover{color:var(--ink);background:rgba(194,132,26,.08)}
+.nav-links a.active{color:var(--gold)}
+.nav-links a.active::after{content:'';position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:16px;height:2px;background:var(--gold);border-radius:2px}
+.nav-cta{background:var(--gold)!important;color:#fff!important;padding:8px 18px!important;border-radius:var(--r-sm)!important;box-shadow:0 3px 12px rgba(194,132,26,.35)}
+.nav-cta:hover{background:var(--gold-deep)!important;transform:translateY(-1px)}
+.nav-cta.active::after{display:none!important}
+.burger{display:none;flex-direction:column;gap:5px;padding:4px;flex-shrink:0}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);transition:var(--t) var(--ease)}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mob-nav{display:none;position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;background:var(--off-white);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:22px;opacity:0;pointer-events:none;transition:opacity var(--t)}
+.mob-nav.open{opacity:1;pointer-events:all}
+.mob-nav a{font-family:var(--ff-d);font-size:1.9rem;font-weight:600;color:var(--ink);cursor:pointer;transition:color var(--t)}
+.mob-nav a:hover,.mob-nav a.active{color:var(--gold)}
+@media(max-width:600px){.nav-links{display:none}.burger{display:flex}.mob-nav{display:flex}:root{--nav-h:60px}}
+@media(max-width:860px) and (min-width:601px){.nav-links a{font-size:.66rem;padding:5px 7px}.nav-links{gap:2px}}
+</style>
+
+<style>
+.page{display:none}
+.page.active{display:block;animation:pgIn .4s var(--ease) both}
+@keyframes pgIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.wrap{max-width:1140px;margin:0 auto;padding:0 5%}
+.sec{padding:88px 0}
+.sec-sm{padding:56px 0}
+.pt-top{padding-top:calc(var(--nav-h) + 32px)}
+.lbl{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.hd{font-family:var(--ff-d);font-weight:600;line-height:1.14;color:var(--ink)}
+.hd-xl{font-size:clamp(2.4rem,5vw,4.4rem)}
+.hd-lg{font-size:clamp(1.8rem,3.2vw,2.9rem)}
+.hd-md{font-size:clamp(1.4rem,2.2vw,2rem)}
+.hd em{font-style:italic;color:var(--gold)}
+.body-txt{font-size:1rem;color:var(--ink-soft);line-height:1.82}
+.muted{color:var(--ink-muted)}
+.divider{width:40px;height:3px;background:var(--gold);margin:16px 0;border-radius:2px}
+.divider.c{margin:16px auto}
+.tag{display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:var(--r-xs);font-size:.64rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;border:1px solid}
+.tag-gold{background:var(--gold-pale);color:var(--gold);border-color:var(--border-g)}
+.tag-veg{background:#EAF5EA;color:var(--green);border-color:rgba(42,110,42,.18)}
+.tag-nonveg{background:#FFF0EE;color:var(--rust);border-color:rgba(155,54,32,.18)}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:13px 26px;border-radius:var(--r-sm);font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;transition:all var(--t) var(--ease);cursor:pointer;border:none;font-family:var(--ff-b);white-space:nowrap}
+.btn-primary{background:var(--gold);color:#fff;box-shadow:0 4px 18px rgba(194,132,26,.38)}
+.btn-primary:hover{background:var(--gold-deep);transform:translateY(-2px)}
+.btn-secondary{background:transparent;color:var(--ink);border:1.5px solid rgba(26,20,16,.2)}
+.btn-secondary:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px)}
+.btn-white{background:#fff;color:var(--gold);box-shadow:0 4px 18px rgba(0,0,0,.12)}
+.btn-white:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
+.btn-outline-white{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4)}
+.btn-outline-white:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
+.rv.on{opacity:1;transform:none}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}.rv.d3{transition-delay:.3s}
+.check-list{list-style:none;display:flex;flex-direction:column;gap:11px}
+.check-list li{display:flex;align-items:flex-start;gap:10px;font-size:.92rem;color:var(--ink-soft);line-height:1.6}
+.ck{color:var(--gold);font-size:1rem;flex-shrink:0;margin-top:1px}
+</style>
+
+<style>
+.cta-band{background:linear-gradient(128deg,var(--gold) 0%,var(--gold-deep) 100%);border-radius:var(--r-lg);padding:52px 48px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.cta-band-title{font-family:var(--ff-d);font-size:clamp(1.5rem,2.8vw,2.4rem);font-weight:600;color:#fff;line-height:1.2;max-width:500px}
+.cta-band-title em{font-style:italic;opacity:.88}
+.cta-actions{display:flex;gap:11px;flex-wrap:wrap}
+.page-banner{padding:calc(var(--nav-h) + 56px) 0 64px;background:linear-gradient(135deg,var(--cream) 0%,var(--off-white) 60%,#EEE4D0 100%);position:relative;overflow:hidden;text-align:center}
+.breadcrumb{display:flex;align-items:center;justify-content:center;gap:7px;font-size:.74rem;color:var(--ink-muted);margin-bottom:14px}
+.breadcrumb a{color:var(--gold);cursor:pointer}
+.faq-wrap{max-width:740px;margin:0 auto}
+.faq-item{border-bottom:1px solid var(--border)}
+.faq-q{width:100%;text-align:left;padding:20px 0;display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:.95rem;font-weight:500;color:var(--ink);cursor:pointer;font-family:var(--ff-b);transition:color var(--t)}
+.faq-q:hover{color:var(--gold)}
+.faq-ic{font-size:1.2rem;color:var(--gold);transition:transform var(--t);flex-shrink:0}
+.faq-item.open .faq-ic{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease;font-size:.88rem;color:var(--ink-muted);line-height:1.8}
+.faq-item.open .faq-a{max-height:300px;padding-bottom:16px}
+.hero{padding-top:var(--nav-h);min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(128deg,var(--cream) 0%,var(--off-white) 55%,#EDE4D4 100%);z-index:0}
+.hero-content{padding:88px 0 88px 5%;position:relative;z-index:1;animation:pgIn .7s ease .1s both}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:7px;background:var(--gold-pale);border:1px solid var(--border-g);padding:5px 13px;border-radius:100px;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:22px}
+.eyebrow-dot{width:5px;height:5px;background:var(--gold);border-radius:50%;animation:pulse 1.8s ease infinite}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.hero-h1{font-family:var(--ff-d);font-size:clamp(2.2rem,4.5vw,3.9rem);font-weight:700;line-height:1.1;color:var(--ink);margin-bottom:18px}
+.hero-sub{font-size:1.05rem;color:var(--ink-soft);line-height:1.78;margin-bottom:32px;max-width:460px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.hero-trust{display:flex;align-items:center;gap:6px;font-size:.74rem;color:var(--ink-muted);flex-wrap:wrap}
+.trust-dot{width:3px;height:3px;background:var(--gold);border-radius:50%}
+.stats-strip{display:flex;gap:32px;flex-wrap:wrap;border-top:1px solid var(--border);padding-top:28px;margin-top:32px}
+.stat-n{font-family:var(--ff-b);font-size:1.9rem;font-weight:700;color:var(--ink);line-height:1}
+.stat-l{font-size:.7rem;color:var(--ink-muted);margin-top:4px;letter-spacing:.03em}
+.hero-visual{position:relative;z-index:1;padding:60px 5% 60px 32px;display:flex;align-items:center;justify-content:center;animation:pgIn .9s ease .25s both}
+.hero-img-wrap{position:relative;width:100%;max-width:440px}
+.hero-img-wrap img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-lg);box-shadow:var(--sh-lg)}
+.h-badge{position:absolute;background:var(--ink);color:#fff;padding:12px 16px;border-radius:var(--r-md);box-shadow:var(--sh-md)}
+.h-badge.b1{top:24px;right:-18px}
+.h-badge.b2{bottom:44px;left:-18px}
+.hb-n{font-family:var(--ff-b);font-size:1.35rem;font-weight:700;color:var(--gold);line-height:1}
+.hb-l{font-size:.62rem;color:rgba(255,255,255,.55);margin-top:2px;letter-spacing:.04em}
+</style>
+
+<style>
+.marquee{background:var(--ink);padding:13px 0;overflow:hidden}
+.m-track{display:flex;animation:mq 28s linear infinite;width:max-content}
+.m-item{display:flex;align-items:center;gap:8px;padding:0 36px;font-size:.68rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.45);white-space:nowrap}
+.m-dot{width:3px;height:3px;background:var(--gold);border-radius:50%}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.facts-strip{background:var(--ink);padding:48px 0}
+.facts-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.fact-n{font-family:var(--ff-b);font-size:2rem;font-weight:700;color:var(--gold);line-height:1}
+.fact-l{font-size:.72rem;color:rgba(255,255,255,.45);margin-top:5px;letter-spacing:.04em}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.intro-img img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-lg);box-shadow:var(--sh-md)}
+.p-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.p-card{background:#fff;border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;transition:transform var(--t),box-shadow var(--t);box-shadow:var(--sh-xs)}
+.p-card:hover{transform:translateY(-5px);box-shadow:var(--sh-md)}
+.p-img{width:100%;aspect-ratio:3/2;object-fit:cover;background:var(--gold-pale)}
+.p-body{padding:20px}
+.p-title{font-family:var(--ff-d);font-size:1.18rem;font-weight:600;color:var(--ink);margin-bottom:6px}
+.p-desc{font-size:.82rem;color:var(--ink-muted);line-height:1.65;margin-bottom:14px}
+.pt-section{background:#fff;border:1px solid #E8E4DE;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-sm);margin-bottom:28px}
+.pt-section.grey{background:var(--grey-bg)}
+.pt-header{display:flex;align-items:center;justify-content:space-between;padding:24px 28px 18px;border-bottom:1px solid #EDEBE7;flex-wrap:wrap;gap:10px}
+.pt-title{font-family:var(--ff-d);font-size:1.45rem;font-weight:600;color:var(--ink);margin:3px 0 2px}
+.pt-sub{font-size:.76rem;color:var(--ink-muted)}
+.pt-badge{background:var(--gold-pale);color:var(--gold);border:1px solid var(--border-g);font-size:.63rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 11px;border-radius:100px;white-space:nowrap}
+.pt-wrap{overflow-x:auto}
+table.pt{width:100%;border-collapse:collapse}
+table.pt thead tr{background:#FAFAF8;border-bottom:2px solid #EDEBE7}
+table.pt thead th{padding:12px 28px;text-align:left;font-size:.67rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-muted)}
+table.pt tbody tr{border-bottom:1px solid #F0EDE8;transition:background var(--t)}
+table.pt tbody tr:last-child{border-bottom:none}
+table.pt tbody tr:hover{background:#FDFAF5}
+table.pt tbody tr.hl{background:var(--gold-pale)}
+table.pt tbody td{padding:13px 28px;font-size:.9rem;color:var(--ink-soft)}
+table.pt tbody td.pr{font-family:var(--ff-b);font-size:1.05rem;font-weight:700;color:var(--gold)}
+table.pt tbody td.pr.req{font-family:var(--ff-b);font-size:.8rem;font-weight:600;color:var(--ink-muted)}
+.pt-note{font-size:.74rem;color:var(--ink-muted);padding:10px 28px 16px;border-top:1px solid #F0EDE8;background:#FAFAF8}
+.vol-row.best{background:var(--ink)!important}
+.vol-row.best td{color:#fff!important}
+.vol-row.best td.pr{color:var(--gold)!important}
+#stickyQ{position:fixed;bottom:22px;right:22px;z-index:900;background:var(--gold);color:#fff;padding:12px 20px;border-radius:100px;font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 6px 22px rgba(194,132,26,.48);cursor:pointer;border:none;font-family:var(--ff-b);display:flex;align-items:center;gap:7px;transition:all var(--t) var(--ease);opacity:0;transform:translateY(10px);pointer-events:none}
+#stickyQ.on{opacity:1;transform:none;pointer-events:all}
+#stickyQ:hover{background:var(--gold-deep);transform:translateY(-2px)}
+</style>
+
+<style>
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.why-card{background:var(--cream);border:1px solid var(--border);border-radius:var(--r-md);padding:28px 22px;transition:all var(--t)}
+.why-card:hover{background:#fff;border-color:var(--gold);box-shadow:var(--sh-sm)}
+.why-icon{font-size:1.5rem;margin-bottom:12px}
+.why-title{font-family:var(--ff-d);font-size:1.08rem;font-weight:600;color:var(--ink);margin-bottom:6px}
+.why-desc{font-size:.82rem;color:var(--ink-muted);line-height:1.7}
+.contact-grid{display:grid;grid-template-columns:1fr 1.5fr;gap:48px;align-items:start}
+.c-sidebar{background:var(--ink);border-radius:var(--r-lg);padding:40px 30px;position:sticky;top:calc(var(--nav-h) + 20px)}
+.c-sidebar h3{font-family:var(--ff-d);font-size:1.55rem;font-weight:600;color:#fff;margin-bottom:6px}
+.c-sidebar > p{font-size:.84rem;color:rgba(255,255,255,.55);line-height:1.72;margin-bottom:28px}
+.c-det{display:flex;align-items:flex-start;gap:12px;margin-bottom:16px}
+.c-ic{width:36px;height:36px;flex-shrink:0;background:rgba(194,132,26,.14);border-radius:var(--r-sm);display:flex;align-items:center;justify-content:center;font-size:.85rem}
+.c-lbl{font-size:.63rem;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.35)}
+.c-val{font-size:.85rem;color:#fff;margin-top:2px;line-height:1.5}
+.c-form-card{background:#fff;border:1px solid var(--border);border-radius:var(--r-lg);padding:40px 34px;box-shadow:var(--sh-sm)}
+.c-form-card h3{font-family:var(--ff-d);font-size:1.45rem;font-weight:600;margin-bottom:4px}
+.c-form-card > p{font-size:.85rem;color:var(--ink-muted);margin-bottom:24px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fg{margin-bottom:14px}
+.fg label{display:block;font-size:.69rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px}
+.fg input,.fg select,.fg textarea{width:100%;padding:11px 13px;border:1.5px solid var(--border);border-radius:var(--r-sm);font-size:.86rem;font-family:var(--ff-b);color:var(--ink);background:var(--off-white);outline:none;appearance:none;transition:border-color var(--t),box-shadow var(--t)}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(194,132,26,.1)}
+.fg textarea{height:120px;resize:vertical}
+.form-ok{display:none;background:#EAF5EA;border:1px solid rgba(42,110,42,.2);border-radius:var(--r-sm);padding:12px 16px;font-size:.85rem;color:#2A6E2A;margin-top:10px}
+footer{background:var(--ink);color:#fff;padding:60px 0 24px}
+.f-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:40px;margin-bottom:44px}
+.f-logo-row{font-family:var(--ff-d);font-size:1.35rem;font-weight:700;color:#fff;margin-bottom:12px}
+.f-logo-row span{color:var(--gold)}
+.f-desc{font-size:.8rem;color:rgba(255,255,255,.45);line-height:1.75;max-width:255px}
+.f-col h4{font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.32);margin-bottom:14px;font-weight:700}
+.f-col ul{display:flex;flex-direction:column;gap:9px}
+.f-col ul a{font-size:.8rem;color:rgba(255,255,255,.55);cursor:pointer;transition:color var(--t)}
+.f-col ul a:hover{color:var(--gold)}
+.f-ci{display:flex;align-items:flex-start;gap:8px;margin-bottom:9px}
+.f-ci-txt{font-size:.76rem;color:rgba(255,255,255,.5);line-height:1.55}
+.f-bottom{border-top:1px solid rgba(255,255,255,.07);padding-top:20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.f-copy{font-size:.71rem;color:rgba(255,255,255,.28)}
+.f-tagline{text-align:center;font-family:var(--ff-d);font-size:1.05rem;font-style:italic;color:rgba(255,255,255,.3);margin-bottom:36px}
+.sample-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.sample-steps{list-style:none;display:flex;flex-direction:column;gap:16px;margin-top:24px}
+.sample-step{display:flex;align-items:flex-start;gap:14px}
+.ss-num{width:34px;height:34px;border-radius:50%;background:var(--gold-pale);border:1px solid var(--border-g);display:flex;align-items:center;justify-content:center;font-family:var(--ff-d);font-size:1rem;font-weight:700;color:var(--gold);flex-shrink:0}
+.ss-text strong{display:block;font-size:.88rem;color:var(--ink);margin-bottom:2px}
+.ss-text span{font-size:.8rem;color:var(--ink-muted);line-height:1.55}
+.s-form-box{background:#fff;border:1px solid var(--border);border-radius:var(--r-lg);padding:38px 32px;box-shadow:var(--sh-sm)}
+.s-form-box h3{font-family:var(--ff-d);font-size:1.5rem;font-weight:600;margin-bottom:4px}
+.s-form-box > p{font-size:.84rem;color:var(--ink-muted);margin-bottom:22px}
+.prod-section{background:#fff;border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-sm)}
+.prod-section-header{position:relative;height:220px;overflow:hidden}
+.prod-section-img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.55);transition:transform .6s ease}
+.prod-section:hover .prod-section-img{transform:scale(1.03)}
+.prod-section-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;padding:28px 32px}
+.prod-section-title{font-family:var(--ff-d);font-size:2.1rem;font-weight:700;color:#fff;line-height:1;margin-bottom:6px}
+.prod-section-sub{font-size:.85rem;color:rgba(255,255,255,.75);line-height:1.5}
+.prod-variety-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.pv-item{display:flex;align-items:center;gap:10px;padding:14px 20px;font-size:.9rem;font-weight:500;color:var(--ink-soft);border-right:1px solid var(--border);border-bottom:1px solid var(--border);transition:background var(--t)}
+.pv-item:hover{background:var(--cream)}
+.pv-item:nth-child(4n){border-right:none}
+.pv-item:nth-child(n+5){border-bottom:none}
+.pv-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.pv-dot.veg{background:var(--green)}
+.pv-dot.nonveg{background:var(--rust)}
+@media(max-width:1024px){.hero{grid-template-columns:1fr;min-height:auto}.hero-content{max-width:100%;padding:calc(var(--nav-h) + 48px) 5% 60px}.hero-visual{display:none}.intro-grid,.sample-grid{grid-template-columns:1fr;gap:36px}.why-grid{grid-template-columns:repeat(2,1fr)}.p-grid{grid-template-columns:repeat(2,1fr)}.f-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr}.c-sidebar{position:static}.facts-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.why-grid,.p-grid{grid-template-columns:1fr}.f-grid{grid-template-columns:1fr;gap:24px}.cta-band{padding:34px 22px;text-align:center;justify-content:center}.cta-actions{justify-content:center}.f-row{grid-template-columns:1fr}.sec{padding:60px 0}.c-form-card{padding:24px 18px}.hero-actions{flex-direction:column}.hero-actions .btn{width:100%;justify-content:center}.prod-variety-grid{grid-template-columns:repeat(2,1fr)}.prod-section-header{height:160px}}
+</style>
+
+
+<nav class="nav" id="mainNav">
+  <div class="nav-inner">
+    <div class="nav-logo" onclick="nav('home')">Momo<span>Craft</span></div>
+    <div class="nav-links" id="navLinks">
+      <a data-page="home" onclick="nav('home')">Home</a>
+      <a data-page="pricing" onclick="nav('pricing')">Price List</a>
+      <a data-page="about" onclick="nav('about')">About Us</a>
+      <a data-page="products" onclick="nav('products')">Products</a>
+      <a data-page="sample" onclick="nav('sample')">Sample Pack</a>
+      <a data-page="contact" onclick="nav('contact')" class="nav-cta">Contact Us</a>
+    </div>
+    <button class="burger" id="burger" onclick="toggleMob()"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mob-nav" id="mobNav">
+  <a onclick="nav('home');closeMob()">Home</a>
+  <a onclick="nav('pricing');closeMob()">Price List</a>
+  <a onclick="nav('about');closeMob()">About Us</a>
+  <a onclick="nav('products');closeMob()">Products</a>
+  <a onclick="nav('sample');closeMob()">Sample Pack</a>
+  <a onclick="nav('contact');closeMob()">Contact Us</a>
+</div>
+<button id="stickyQ" onclick="nav('contact')">📋 Request Quote</button>
+
+<!-- HOME PAGE -->
+<div id="pg-home" class="page">
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow"><span class="eyebrow-dot"></span>Delhi NCR B2B Wholesale Supplier</div>
+      <h1 class="hero-h1">Wholesale Frozen Momos for Restaurants &amp; Cloud Kitchens</h1>
+      <p class="hero-sub">Hygienic. Ready-to-Cook. Delivered in Bulk with Reliable Supply Scheduling.</p>
+      <div class="delivery-badge">🛵 Free delivery on orders ₹6,000 &amp; above</div>
+      <div class="hero-actions">
+        <button class="btn btn-primary" onclick="nav('pricing')">Request Bulk Pricing</button>
+        <button class="btn btn-secondary" onclick="nav('sample')">Order Sample Pack</button>
+      </div>
+      <div class="hero-trust">
+        <span>Cold-chain maintained</span><span class="trust-dot"></span>
+        <span>Starts from 1 kg</span><span class="trust-dot"></span>
+        <span>Delhi NCR delivery</span>
+      </div>
+      <div class="stats-strip">
+        <div><div class="stat-n">1 kg</div><div class="stat-l">Min. Order</div></div>
+        <div><div class="stat-n">6 mo</div><div class="stat-l">Shelf Life</div></div>
+        <div><div class="stat-n">−18°C</div><div class="stat-l">Storage Temp</div></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=800&auto=format&fit=crop&q=80" alt="Premium frozen momos bulk supply"/>
+        <div class="h-badge b1"><div class="hb-n">6 Mo</div><div class="hb-l">Shelf Life</div></div>
+        <div class="h-badge b2"><div class="hb-n">1 kg+</div><div class="hb-l">Min. Order</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="m-track">
+      <div class="m-item"><span class="m-dot"></span>Frozen Momos — Delhi NCR</div>
+      <div class="m-item"><span class="m-dot"></span>Veg · Chicken · Paneer · Spicy · Cheese &amp; Corn</div>
+      <div class="m-item"><span class="m-dot"></span>Cold-Chain Maintained</div>
+      <div class="m-item"><span class="m-dot"></span>Starts from 1 kg</div>
+      <div class="m-item"><span class="m-dot"></span>Same-Day / Next-Day Delivery Available</div>
+      <div class="m-item"><span class="m-dot"></span>6 Month Shelf Life at −18°C</div>
+      <div class="m-item"><span class="m-dot"></span>Frozen Momos — Delhi NCR</div>
+      <div class="m-item"><span class="m-dot"></span>Veg · Chicken · Paneer · Spicy · Cheese &amp; Corn</div>
+      <div class="m-item"><span class="m-dot"></span>Cold-Chain Maintained</div>
+      <div class="m-item"><span class="m-dot"></span>Starts from 1 kg</div>
+      <div class="m-item"><span class="m-dot"></span>Same-Day / Next-Day Delivery Available</div>
+      <div class="m-item"><span class="m-dot"></span>6 Month Shelf Life at −18°C</div>
+    </div>
+  </div>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="intro-grid">
+        <div class="rv">
+          <div class="lbl">What We Supply</div>
+          <h2 class="hd hd-lg">Premium Frozen Momos <em>for Food Businesses</em></h2>
+          <div class="divider"></div>
+          <p class="body-txt" style="margin-bottom:18px">We supply Veg, Non-veg, Paneer, specialty flavors, and selected specialty frozen momos — all sourced from certified manufacturing partners and delivered cold-chain to your kitchen.</p>
+          <ul class="check-list" style="margin-bottom:26px">
+            <li><span class="ck">✓</span>Starts from just 1 kg — combined flavours allowed</li>
+            <li><span class="ck">✓</span>6-month shelf life when stored at −18°C</li>
+            <li><span class="ck">✓</span>Cold-chain maintained throughout delivery</li>
+            <li><span class="ck">✓</span>UPI &amp; bank transfer accepted</li>
+          </ul>
+          <div style="display:flex;gap:11px;flex-wrap:wrap">
+            <button class="btn btn-primary" onclick="nav('products')">See All Products →</button>
+            <button class="btn btn-secondary" onclick="nav('sample')">Request Sample Pack</button>
+          </div>
+        </div>
+        <div class="rv d2">
+          <div class="intro-img">
+            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&auto=format&fit=crop&q=80" alt="Frozen momos bulk supply" loading="lazy"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" style="background:var(--cream)">
+    <div class="wrap">
+      <div class="rv" style="text-align:center;margin-bottom:40px">
+        <div class="lbl">FAQ</div>
+        <h2 class="hd hd-lg">Frequently Asked <em>Questions</em></h2>
+        <div class="divider c"></div>
+      </div>
+      <div class="faq-wrap rv">
+        <div class="faq-item"><button class="faq-q">What types of momos do you supply? <span class="faq-ic">+</span></button><div class="faq-a">We supply Veg, Chicken, Paneer, Spicy variants, Cheese &amp; Corn, and selected specialty items.</div></div>
+        <div class="faq-item"><button class="faq-q">What is the minimum order quantity? <span class="faq-ic">+</span></button><div class="faq-a">Minimum order quantities start from 1 kg per order (combined flavors allowed).</div></div>
+        <div class="faq-item"><button class="faq-q">Do you provide bulk discounts? <span class="faq-ic">+</span></button><div class="faq-a">Yes. We offer volume-based pricing for higher monthly purchase commitments.</div></div>
+        <div class="faq-item"><button class="faq-q">What payment methods do you accept? <span class="faq-ic">+</span></button><div class="faq-a">We accept UPI, bank transfers, and other digital payment methods.</div></div>
+        <div class="faq-item"><button class="faq-q">What areas do you deliver to? <span class="faq-ic">+</span></button><div class="faq-a">We currently supply across Delhi NCR — Delhi, Noida, Gurgaon, Faridabad, Ghaziabad &amp; Greater Noida.</div></div>
+        <div class="faq-item"><button class="faq-q">What is the shelf life? <span class="faq-ic">+</span></button><div class="faq-a">Frozen momos have a shelf life of 6 months when stored at −18°C or below.</div></div>
+        <div class="faq-item"><button class="faq-q">Are the products FSSAI compliant? <span class="faq-ic">+</span></button><div class="faq-a">Yes. Our manufacturing partners operate in compliance with FSSAI food safety standards.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec-sm">
+    <div class="wrap">
+      <div class="cta-band rv">
+        <h2 class="cta-band-title">Ready to place your <em>first order?</em></h2>
+        <div class="cta-actions">
+          <button class="btn btn-white" onclick="nav('contact')">Contact Us Today</button>
+          <a href="https://wa.me/919821477828" target="_blank" class="btn btn-outline-white">💬 WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- PRICING PAGE -->
+<div id="pg-pricing" class="page">
+  <section class="page-banner">
+    <div class="wrap">
+      <div class="breadcrumb"><a onclick="nav('home')">Home</a><span>/</span><span>Price List</span></div>
+      <div class="lbl">Transparent Pricing</div>
+      <h1 class="hd hd-xl">Complete Price <em>List</em></h1>
+      <div class="divider c"></div>
+      <p class="body-txt muted" style="max-width:480px;margin:0 auto">All prices are per piece. Bulk discounts available.</p>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap">
+      <div class="pt-section rv">
+        <div class="pt-header">
+          <div><div class="lbl">Category 01</div><div class="pt-title">Desi Range</div><div class="pt-sub">25g per piece · Approx. 40 pcs per kg</div></div>
+        </div>
+        <div class="pt-wrap">
+          <table class="pt">
+            <thead><tr><th>Product</th><th>Weight</th><th>Price per Piece</th></tr></thead>
+            <tbody>
+              <tr><td>Desi Veg Momos</td><td>25g</td><td class="pr">₹6</td></tr>
+              <tr><td>Desi Chicken Momos</td><td>25g</td><td class="pr">₹7</td></tr>
+              <tr><td>Desi Paneer Momos</td><td>25g</td><td class="pr">₹7</td></tr>
+              <tr><td>Masala Soya Momos</td><td>25g</td><td class="pr">₹7</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pt-section rv">
+        <div class="pt-header">
+          <div><div class="lbl">Category 02</div><div class="pt-title">Premium Range</div><div class="pt-sub">25g per piece</div></div>
+          <span class="pt-badge">Most Ordered</span>
+        </div>
+        <div class="pt-wrap">
+          <table class="pt">
+            <thead><tr><th>Product</th><th>Weight</th><th>Price per Piece</th></tr></thead>
+            <tbody>
+              <tr><td>Premium Veg Momos</td><td>25g</td><td class="pr">₹7</td></tr>
+              <tr><td>Premium Chicken Momos</td><td>25g</td><td class="pr">₹9</td></tr>
+              <tr><td>Premium Paneer Momos</td><td>25g</td><td class="pr">₹9</td></tr>
+              <tr><td>Spicy Chicken Momos</td><td>25g</td><td class="pr">₹9.50</td></tr>
+              <tr><td>Spicy Paneer Momos</td><td>25g</td><td class="pr">₹9.50</td></tr>
+              <tr class="hl"><td>Cheese &amp; Corn Momos</td><td>25g</td><td class="pr">₹10</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pt-section rv">
+        <div class="pt-header">
+          <div><div class="lbl">Category 03</div><div class="pt-title">Spring Rolls</div><div class="pt-sub">30g per piece · Approx. 33 pcs per kg</div></div>
+        </div>
+        <div class="pt-wrap">
+          <table class="pt">
+            <thead><tr><th>Product</th><th>Weight</th><th>Price per Piece</th></tr></thead>
+            <tbody>
+              <tr><td>Veg Noodle Spring Roll</td><td>30g</td><td class="pr">₹16</td></tr>
+              <tr><td>Chicken Spring Roll</td><td>30g</td><td class="pr">₹18</td></tr>
+              <tr><td>Kadhai Paneer Spring Roll</td><td>30g</td><td class="pr">₹18</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pt-section rv" style="background:var(--grey-bg)">
+        <div class="pt-header" style="background:var(--grey-bg)">
+          <div><div class="lbl">Save More</div><div class="pt-title">Volume Discount Structure</div></div>
+        </div>
+        <div class="pt-wrap">
+          <table class="pt" style="background:transparent">
+            <thead style="background:transparent"><tr style="background:#EBEBEB"><th>Monthly Purchase Volume</th><th>Discount</th></tr></thead>
+            <tbody>
+              <tr class="vol-row"><td>50 kg+</td><td class="pr">2%</td></tr>
+              <tr class="vol-row"><td>100 kg+</td><td class="pr">4%</td></tr>
+              <tr class="vol-row best"><td>200 kg+</td><td class="pr">Custom Pricing</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pt-note">* All prices are per piece. Prices exclude delivery charges. Subject to change — confirm at time of order.</div>
+      </div>
+      <div class="rv" style="text-align:center;margin-top:40px">
+        <button class="btn btn-primary" onclick="nav('contact')">Request Bulk Quote</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ABOUT PAGE -->
+<div id="pg-about" class="page">
+  <section class="page-banner">
+    <div class="wrap">
+      <div class="breadcrumb"><a onclick="nav('home')">Home</a><span>/</span><span>About Us</span></div>
+      <div class="lbl">About MomoCraft</div>
+      <h1 class="hd hd-xl">Your Frozen Momo <em>Supply Partner</em></h1>
+      <div class="divider c"></div>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap">
+      <div class="intro-grid">
+        <div class="rv">
+          <div class="lbl">Our Story</div>
+          <h2 class="hd hd-lg">From Kitchen to <em>Commercial Scale</em></h2>
+          <div class="divider"></div>
+          <p class="body-txt" style="margin-bottom:16px">MomoCraft supplies premium frozen momos in bulk to restaurants, cafés, cloud kitchens, caterers, and food service businesses across Delhi NCR.</p>
+          <p class="body-txt" style="margin-bottom:26px">Our goal is simple — help food businesses reduce preparation time, maintain consistent taste, and improve operational efficiency with dependable bulk supply.</p>
+          <ul class="check-list" style="margin-bottom:26px">
+            <li><span class="ck">✓</span>FSSAI-compliant manufacturing partners</li>
+            <li><span class="ck">✓</span>Cold-chain maintained from production to delivery</li>
+            <li><span class="ck">✓</span>Flexible order quantities for all business sizes</li>
+            <li><span class="ck">✓</span>Digital payments accepted (UPI &amp; bank transfer)</li>
+          </ul>
+          <button class="btn btn-primary" onclick="nav('contact')">Start a Conversation</button>
+        </div>
+        <div class="rv d2">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&auto=format&fit=crop&q=80" alt="Production kitchen" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-lg);box-shadow:var(--sh-lg)"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec" style="background:var(--cream)">
+    <div class="wrap">
+      <div class="rv" style="text-align:center"><div class="lbl">Why MomoCraft</div><h2 class="hd hd-lg">Why Businesses Choose <em>Us</em></h2><div class="divider c"></div></div>
+      <div class="why-grid">
+        <div class="why-card rv d1"><div class="why-icon">⚖️</div><div class="why-title">Consistent Taste &amp; Portions</div><div class="why-desc">Uniform quality every batch — essential for predictable food cost and menu consistency.</div></div>
+        <div class="why-card rv d2"><div class="why-icon">🏭</div><div class="why-title">FSSAI-Compliant Partners</div><div class="why-desc">All products sourced from certified facilities with proper food safety protocols.</div></div>
+        <div class="why-card rv d3"><div class="why-icon">❄️</div><div class="why-title">Cold-Chain Logistics</div><div class="why-desc">Temperature-controlled delivery — product integrity maintained from dispatch to kitchen.</div></div>
+        <div class="why-card rv d1"><div class="why-icon">📦</div><div class="why-title">Flexible Quantities</div><div class="why-desc">Starts from 1 kg. Supply scheduling adapted to your kitchen cycle.</div></div>
+        <div class="why-card rv d2"><div class="why-icon">💳</div><div class="why-title">Easy Payments</div><div class="why-desc">UPI &amp; bank transfer accepted.</div></div>
+        <div class="why-card rv d3"><div class="why-icon">🤝</div><div class="why-title">Dedicated Support</div><div class="why-desc">Fast communication, personal attention. Built for growing businesses.</div></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- PRODUCTS PAGE -->
+<div id="pg-products" class="page">
+  <section class="page-banner">
+    <div class="wrap">
+      <div class="breadcrumb"><a onclick="nav('home')">Home</a><span>/</span><span>Products</span></div>
+      <div class="lbl">What We Supply</div>
+      <h1 class="hd hd-xl">Our Bulk Product <em>Range</em></h1>
+      <div class="divider c"></div>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap">
+      <div class="prod-section rv" style="margin-bottom:40px">
+        <div class="prod-section-header">
+          <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=1200&auto=format&fit=crop&q=80" alt="Veg Momos" class="prod-section-img" loading="lazy"/>
+          <div class="prod-section-overlay">
+            <span class="tag tag-veg" style="font-size:.8rem;padding:5px 14px;margin-bottom:12px">● Vegetarian</span>
+            <h2 class="prod-section-title">Veg Range</h2>
+            <p class="prod-section-sub">Fresh vegetable &amp; paneer fillings — consistent quality, bulk ready</p>
+          </div>
+        </div>
+        <div class="prod-variety-grid">
+          <div class="pv-item"><span class="pv-dot veg"></span>Desi Veg</div>
+          <div class="pv-item"><span class="pv-dot veg"></span>Thai Veg</div>
+          <div class="pv-item"><span class="pv-dot veg"></span>Desi Paneer</div>
+          <div class="pv-item"><span class="pv-dot veg"></span>Masala Soya</div>
+          <div class="pv-item"><span class="pv-dot veg"></span>Malai Paneer</div>
+          <div class="pv-item"><span class="pv-dot veg"></span>Spicy Paneer</div>
+          <div class="pv-item"><span class="pv-dot veg"></span>Premium Veg</div>
+          <div class="pv-item"><span class="pv-dot veg"></span>Corn &amp; Cheese</div>
+        </div>
+        <div style="text-align:right;margin:14px 20px 16px">
+          <button class="btn btn-primary" style="padding:9px 20px;font-size:.74rem" onclick="nav('contact')">Get Bulk Quote →</button>
+        </div>
+      </div>
+      <div class="prod-section rv" style="margin-bottom:40px">
+        <div class="prod-section-header">
+          <img src="https://images.unsplash.com/photo-1562802378-063ec186a863?w=1200&auto=format&fit=crop&q=80" alt="Non-Veg Momos" class="prod-section-img" loading="lazy"/>
+          <div class="prod-section-overlay">
+            <span class="tag tag-nonveg" style="font-size:.8rem;padding:5px 14px;margin-bottom:12px">● Non-Vegetarian</span>
+            <h2 class="prod-section-title">Non-Veg Range</h2>
+            <p class="prod-section-sub">Chicken, mutton, fish &amp; prawn — high-demand fillings for every menu</p>
+          </div>
+        </div>
+        <div class="prod-variety-grid">
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Fish Momos</div>
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Desi Chicken</div>
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Thai Chicken</div>
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Juicy Chicken</div>
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Meaty Mutton</div>
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Spicy Chicken</div>
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Prawn Momos</div>
+          <div class="pv-item"><span class="pv-dot nonveg"></span>Butter Chicken</div>
+        </div>
+        <div style="text-align:right;margin:14px 20px 16px">
+          <button class="btn btn-primary" style="padding:9px 20px;font-size:.74rem" onclick="nav('contact')">Get Bulk Quote →</button>
+        </div>
+      </div>
+      <div class="rv" style="text-align:center;background:var(--cream);border:1px solid var(--border);border-radius:var(--r-md);padding:30px 22px">
+        <h3 class="hd hd-md" style="margin-bottom:10px">Also: <em>Kurkure Momos, Dimsums, Baos, Manchurian, Gravies &amp; Sauces</em></h3>
+        <p class="body-txt muted" style="margin-bottom:20px;font-size:.9rem">Custom &amp; bulk range pricing on request.</p>
+        <button class="btn btn-primary" onclick="nav('contact')">Contact Us for Custom Orders</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- SAMPLE PAGE -->
+<div id="pg-sample" class="page">
+  <section class="page-banner">
+    <div class="wrap">
+      <div class="breadcrumb"><a onclick="nav('home')">Home</a><span>/</span><span>Sample Pack</span></div>
+      <div class="lbl">Try Before You Commit</div>
+      <h1 class="hd hd-xl"><em>Try Before</em> You Commit</h1>
+      <div class="divider c"></div>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap">
+      <div class="sample-grid">
+        <div class="rv">
+          <div class="lbl">How It Works</div>
+          <h2 class="hd hd-lg">Evaluate Before <em>Committing</em></h2>
+          <div class="divider"></div>
+          <ul class="sample-steps">
+            <li class="sample-step"><div class="ss-num">1</div><div class="ss-text"><strong>Fill the Request Form</strong><span>Tell us your business type and which variants you'd like to evaluate.</span></div></li>
+            <li class="sample-step"><div class="ss-num">2</div><div class="ss-text"><strong>We Confirm Details</strong><span>Our team responds within 24 hours with sample pack availability and terms.</span></div></li>
+            <li class="sample-step"><div class="ss-num">3</div><div class="ss-text"><strong>Delivery Arranged</strong><span>Sample pack dispatched via cold-chain to your kitchen address.</span></div></li>
+            <li class="sample-step"><div class="ss-num">4</div><div class="ss-text"><strong>Evaluate &amp; Decide</strong><span>Test in your kitchen. If satisfied, we set up a regular bulk supply schedule.</span></div></li>
+          </ul>
+        </div>
+        <div class="rv d2">
+          <div class="s-form-box">
+            <h3>Request Sample Pack</h3>
+            <p>We'll get back within 24 business hours.</p>
+            <form onsubmit="submitSample(event)">
+              <div class="f-row">
+                <div class="fg"><label>Full Name</label><input type="text" placeholder="Your name" required/></div>
+                <div class="fg"><label>Phone Number</label><input type="tel" placeholder="+91 98765 43210" required/></div>
+              </div>
+              <div class="fg"><label>Business Type</label>
+                <select required><option value="" disabled selected>Select your business</option><option>Restaurant / Dhaba</option><option>Cloud Kitchen</option><option>Café / QSR</option><option>Caterer / Events</option><option>Other</option></select>
+              </div>
+              <div class="fg"><label>Delivery Location</label><input type="text" placeholder="e.g. Connaught Place, Delhi" required/></div>
+              <div class="fg"><label>Variants to Evaluate</label><textarea placeholder="e.g. Veg Steamed, Chicken Momos..." style="height:90px"></textarea></div>
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Request Sample Pack</button>
+              <div id="sampleOk" class="form-ok">✓ Request received! We'll respond within 24 business hours.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- CONTACT PAGE -->
+<div id="pg-contact" class="page">
+  <section class="page-banner">
+    <div class="wrap">
+      <div class="breadcrumb"><a onclick="nav('home')">Home</a><span>/</span><span>Contact</span></div>
+      <div class="lbl">Get in Touch</div>
+      <h1 class="hd hd-xl">Let's Build a <em>Supply Partnership</em></h1>
+      <div class="divider c"></div>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="c-sidebar rv">
+          <h3>MomoCraft</h3>
+          <p>Delhi NCR's B2B frozen momo wholesale supplier. We respond within 24 business hours.</p>
+          <div class="c-det"><div class="c-ic">📞</div><div><div class="c-lbl">Phone / WhatsApp</div><div class="c-val">+91 98214 77828</div></div></div>
+          <div class="c-det"><div class="c-ic">✉️</div><div><div class="c-lbl">Email</div><div class="c-val">order.momocraft@gmail.com</div></div></div>
+          <div class="c-det"><div class="c-ic">🚚</div><div><div class="c-lbl">Delivery Area</div><div class="c-val">Delhi, Noida, Gurgaon, Faridabad, Ghaziabad &amp; Greater Noida</div></div></div>
+          <div class="c-det"><div class="c-ic">🕐</div><div><div class="c-lbl">Business Hours</div><div class="c-val">Monday – Saturday, 9 AM – 7 PM</div></div></div>
+        </div>
+        <div class="rv d2">
+          <div class="c-form-card">
+            <h3>Send an Enquiry</h3>
+            <p>Fill out the form and our team will respond within 24 business hours.</p>
+            <form id="contactForm" onsubmit="submitContact(event)">
+              <div class="f-row">
+                <div class="fg"><label>Full Name</label><input type="text" placeholder="Your full name" required/></div>
+                <div class="fg"><label>Phone Number</label><input type="tel" placeholder="+91 98765 43210" required/></div>
+              </div>
+              <div class="fg"><label>Email Address</label><input type="email" placeholder="your@email.com" required/></div>
+              <div class="f-row">
+                <div class="fg"><label>Business Type</label>
+                  <select required><option value="" disabled selected>Select type</option><option>Restaurant / Dhaba</option><option>Cloud Kitchen</option><option>Café / QSR</option><option>Caterer / Events</option><option>Other</option></select>
+                </div>
+                <div class="fg"><label>Monthly Volume</label>
+                  <select><option value="" disabled selected>Estimated volume</option><option>Trial / Evaluation</option><option>50–100 kg / month</option><option>100–300 kg / month</option><option>300 kg+ / month</option></select>
+                </div>
+              </div>
+              <div class="fg"><label>Delivery Location</label><input type="text" placeholder="e.g. Sector 18, Noida"/></div>
+              <div class="fg"><label>Message / Requirements</label><textarea placeholder="Product variants, delivery frequency, any specific needs..."></textarea></div>
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Enquiry →</button>
+              <div id="contactOk" class="form-ok">✓ Enquiry sent! We'll respond within 24 business hours.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec-sm" style="background:var(--cream)">
+    <div class="wrap" style="text-align:center">
+      <div class="rv">
+        <div class="lbl">Prefer WhatsApp?</div>
+        <h2 class="hd hd-lg" style="font-size:1.9rem">Chat with us <em>directly.</em></h2>
+        <p class="body-txt muted" style="margin:10px auto 22px;max-width:380px">Mon–Sat, 9 AM – 7 PM</p>
+        <a href="https://wa.me/919821477828" target="_blank" class="btn btn-primary">💬 Open WhatsApp Chat</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <p class="f-tagline">Reliable Bulk Frozen Momo Supply for Growing Food Businesses.</p>
+    <div class="f-grid">
+      <div>
+        <div class="f-logo-row">Momo<span>Craft</span></div>
+        <p class="f-desc">B2B wholesale frozen momo supplier serving restaurants, cloud kitchens, caterers and food service businesses across Delhi NCR.</p>
+      </div>
+      <div class="f-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a onclick="nav('home')">Home</a></li>
+          <li><a onclick="nav('pricing')">Price List</a></li>
+          <li><a onclick="nav('about')">About Us</a></li>
+          <li><a onclick="nav('products')">Products</a></li>
+          <li><a onclick="nav('sample')">Sample Pack</a></li>
+          <li><a onclick="nav('contact')">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a onclick="nav('products')">Veg Steamed Momos</a></li>
+          <li><a onclick="nav('products')">Chicken Momos</a></li>
+          <li><a onclick="nav('products')">Paneer Momos</a></li>
+          <li><a onclick="nav('products')">Spicy Momos</a></li>
+          <li><a onclick="nav('products')">Cheese &amp; Corn</a></li>
+          <li><a onclick="nav('products')">Spring Rolls</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Contact</h4>
+        <div class="f-ci"><span>📞</span><span class="f-ci-txt">+91 98214 77828</span></div>
+        <div class="f-ci"><span>✉️</span><span class="f-ci-txt">order.momocraft@gmail.com</span></div>
+        <div class="f-ci"><span>🚚</span><span class="f-ci-txt">Delhi NCR Delivery</span></div>
+        <div class="f-ci"><span>🕐</span><span class="f-ci-txt">Mon–Sat: 9 AM – 7 PM</span></div>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <p class="f-copy">© 2025 MomoCraft. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var PAGES=['home','about','products','pricing','sample','contact'];
+  var cur='home';
+  function getHash(){try{var h=window.location.hash.replace('#','');return PAGES.indexOf(h)!==-1?h:'home';}catch(e){return 'home';}}
+  function showPage(page,updateHash){
+    if(PAGES.indexOf(page)===-1)page='home';
+    cur=page;
+    document.querySelectorAll('.page').forEach(function(el){el.classList.remove('active');});
+    var el=document.getElementById('pg-'+page);
+    if(el)el.classList.add('active');
+    document.querySelectorAll('[data-page]').forEach(function(l){l.classList.toggle('active',l.dataset.page===page);});
+    try{window.scrollTo({top:0,behavior:'smooth'});}catch(e){}
+    if(updateHash!==false){try{window.location.hash=(page==='home')?'':page;}catch(e){}}
+    setTimeout(initReveal,80);
+  }
+  window.addEventListener('hashchange',function(){var p=getHash();if(p!==cur)showPage(p,false);});
+  window.nav=function(page){showPage(page,true);};
+  window.toggleMob=function(){
+    var b=document.getElementById('burger'),m=document.getElementById('mobNav');
+    if(!b||!m)return;
+    b.classList.toggle('open');m.classList.toggle('open');
+    document.body.style.overflow=m.classList.contains('open')?'hidden':'';
+  };
+  window.closeMob=function(){
+    var b=document.getElementById('burger'),m=document.getElementById('mobNav');
+    if(b)b.classList.remove('open');if(m)m.classList.remove('open');
+    document.body.style.overflow='';
+  };
+  var rvObs;
+  function initReveal(){
+    if(!window.IntersectionObserver)return;
+    if(rvObs)rvObs.disconnect();
+    rvObs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');rvObs.unobserve(e.target);}});
+    },{threshold:0.1,rootMargin:'0px 0px -24px 0px'});
+    document.querySelectorAll('.rv:not(.on)').forEach(function(el){rvObs.observe(el);});
+  }
+  window.initReveal=initReveal;
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.faq-q');
+    if(!btn)return;
+    var item=btn.closest('.faq-item');
+    var wasOpen=item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(i){i.classList.remove('open');});
+    if(!wasOpen)item.classList.add('open');
+  });
+  window.addEventListener('scroll',function(){
+    var n=document.getElementById('mainNav');
+    if(n)n.classList.toggle('sc',window.scrollY>8);
+    var sq=document.getElementById('stickyQ');
+    if(sq)sq.classList.toggle('on',window.scrollY>320);
+  });
+  window.submitContact=function(e){
+    e.preventDefault();
+    var btn=e.target.querySelector('[type="submit"]'),ok=document.getElementById('contactOk');
+    btn.disabled=true;btn.textContent='Sending...';
+    setTimeout(function(){btn.textContent='Sent ✓';if(ok)ok.style.display='block';e.target.reset();
+      setTimeout(function(){btn.disabled=false;btn.textContent='Send Enquiry →';if(ok)ok.style.display='none';},5000);},1200);
+  };
+  window.submitSample=function(e){
+    e.preventDefault();
+    var btn=e.target.querySelector('[type="submit"]'),ok=document.getElementById('sampleOk');
+    btn.disabled=true;btn.textContent='Submitting...';
+    setTimeout(function(){btn.textContent='Request Sent ✓';if(ok)ok.style.display='block';e.target.reset();
+      setTimeout(function(){btn.disabled=false;btn.textContent='Request Sample Pack';if(ok)ok.style.display='none';},5000);},1200);
+  };
+  showPage(getHash(),false);
+  setTimeout(initReveal,100);
+})();
+</script>
+</body>
+</html>
