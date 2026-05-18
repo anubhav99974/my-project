@@ -1,11 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" fill="none">
-  <!-- Momo dumpling icon -->
-  <g transform="translate(5, 5)">
-    <path d="M30 58C14 58 4 46 4 34C4 22 12 12 24 8C28 6.5 32 6 36 7C40 8 43 10 45 13C48 10 52 8.5 56 9C58 9.5 59.5 10.5 60 12C55 6 47 2 38 2C22 2 0 16 0 38C0 52 12 62 30 62C42 62 52 56 58 48C52 54 42 58 30 58Z" fill="#C2841A" stroke="#C2841A" stroke-width="1.5"/>
-    <path d="M30 8C34 8 38 10 40 14C36 10 30 12 28 16C26 20 28 26 32 28C24 26 20 20 22 14C24 10 26 8 30 8Z" fill="none" stroke="#C2841A" stroke-width="1.2"/>
-    <path d="M42 12C46 12 50 14 52 18C48 14 42 16 40 20C38 24 40 30 44 32C36 30 32 24 34 18C36 14 38 12 42 12Z" fill="none" stroke="#C2841A" stroke-width="1.2"/>
-    <path d="M24 20C20 24 20 30 24 36C28 42 34 44 40 42" fill="none" stroke="#C2841A" stroke-width="1.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" fill="none">
+  <!-- Momo dumpling icon - outline style matching the brand logo -->
+  <g transform="translate(8, 8)" stroke="#C2841A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Main dumpling body - rounded shape -->
+    <path d="M6 42C4 36 4 28 8 22C12 16 18 12 26 10C34 8 42 10 48 14C54 18 58 24 58 32C58 38 56 44 52 48C46 54 38 58 30 58C22 58 14 54 10 48C8 46 6.5 44 6 42Z"/>
+    <!-- Top pleats/folds of the momo -->
+    <path d="M20 12C24 6 30 4 36 4C42 4 48 6 52 10"/>
+    <path d="M26 10C28 6 32 4 36 4"/>
+    <path d="M36 4C40 4 44 6 46 10"/>
+    <!-- Inner fold lines showing the pinched top -->
+    <path d="M28 14C30 10 34 8 38 10"/>
+    <path d="M22 16C26 10 32 8 36 8C40 8 44 10 46 14"/>
+    <!-- Bottom curve detail -->
+    <path d="M14 46C20 52 28 54 36 52C44 50 50 46 52 40"/>
   </g>
   <!-- MomoCraft text -->
-  <text x="78" y="47" font-family="'Cormorant Garamond', Georgia, serif" font-size="34" font-weight="600" fill="#C2841A">MomoCraft</text>
+  <text x="82" y="52" font-family="'Cormorant Garamond', Georgia, serif" font-size="36" font-weight="600" fill="#C2841A">MomoCraft</text>
 </svg>
